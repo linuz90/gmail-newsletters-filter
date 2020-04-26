@@ -1,5 +1,5 @@
 # Gmail Newsletter Filter
-A Gmail filter to **catch newsletters**, to **clear your inbox**.
+A Gmail filter that will **catch newsletters** and **clear your inbox**.
 
 ## The query
 
