@@ -4,7 +4,7 @@ A Gmail filter to **catch newsletters**, to **clear your inbox**.
 ## The query
 
 ```
-(-label:notifications unsubscribe OR from:noreply OR from:no-reply OR "Hai ricevuto questa email perché" OR "[Nuovo Articolo]" OR "[New Article]" OR "[New Post]" OR "make sure you keep getting these emails" OR "this email was sent to" OR "turn off these emails" OR "You’ve received this email because" OR "per visualizzare questa email" -{"confirm your" mailbrew subject:urgent subject:alert})
+(unsubscribe OR from:noreply OR from:no-reply OR "[New Article]" OR "[Nuovo Articolo]" OR "[New Post]" OR "make sure you keep getting these emails" OR "this email was sent to" OR "turn off these emails" OR "You’ve received this email because" OR "per visualizzare questa email" OR "Hai ricevuto questa email perché" -{"confirm your" mailbrew subject:urgent subject:alert label:notifications})
 ```
 
 Among other things, this query will **include** email with:
@@ -16,6 +16,8 @@ It will **exclude**:
 * Emails with keywords like "urgent" or "alert"
 * [Mailbrew](https://mailbrew.com) digests
 * Emails with label `notifications` (you can change it to any label)
+
+The query includes a few Italian sentences as well.
 
 ## Usage
 
