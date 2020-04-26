@@ -36,6 +36,6 @@ Now, in any email client you use, you'll find your newsletters in the dedicated 
 
 ## Feedback and Contributions
 
-Feel free to contribute to the filter with other common patterns, and to say hy or give feedback [hit me up on Twitter](https://twitter.com/linuz90).
+Feel free to contribute to the query with other common patterns, and [hit me up on Twitter](https://twitter.com/linuz90) to say _hi_ or give feedback.
 
 For more email goodies, check out [inboxze.ro](https://inboxze.ro).
