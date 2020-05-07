@@ -4,7 +4,7 @@ A Gmail filter that will **catch newsletters** and **clear your inbox**.
 ## The query
 
 ```
-(unsubscribe OR from:noreply OR from:no-reply OR from:no_reply OR "[New Article]" OR "[Nuovo Articolo]" OR "[New Post]" OR "make sure you keep getting these emails" OR "this email was sent to" OR "turn off these emails" OR "You’ve received this email because" OR "this e-mail is sent to" OR "this email is sent to" OR "per visualizzare questa email" OR "Hai ricevuto questa email perché" OR "Se non desideri ricevere ulteriori" OR "ricevuto questa email per errore" OR "received this email by mistake" -{"confirm your" mailbrew subject:urgent subject:alert label:notifications})
+(unsubscribe OR from:noreply OR from:no-reply OR from:no_reply OR "[New Article]" OR "[Nuovo Articolo]" OR "[New Post]" OR "make sure you keep getting these emails" OR "this email was sent to" OR "turn off these emails" OR "You’ve received this email because" OR "this e-mail is sent to" OR "this email is sent to" OR "per visualizzare questa email" OR "Hai ricevuto questa email perché" OR "Se non desideri ricevere ulteriori" OR "ricevuto questa email per errore" OR "Questa email è stata inviata a" OR "received this email by mistake" -{"confirm your" mailbrew subject:urgent subject:alert label:notifications})
 ```
 
 Among other things, this query will **include** email with:
